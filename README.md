@@ -12,7 +12,6 @@ Marco Rodrigo Costa
 Henrique Augusto Rodrigues
 Luís Augusto Lima de Oliveira
 
-
 '''
 # Tema do Trabalho
 Linguagem de Programação Go

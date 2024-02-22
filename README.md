@@ -10,8 +10,9 @@ Marco Rodrigo Costa
 # Integrantes do Grupo
 '''
 
-Henrique Augusto Rodrigues
-Luís Augusto Lima de Oliveira
+- Henrique Augusto Rodrigues
+- Luís Augusto Lima de Oliveira 
+
 '''
 # Tema do Trabalho
 Linguagem de Programação Go

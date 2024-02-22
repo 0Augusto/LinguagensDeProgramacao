@@ -19,21 +19,21 @@ Linguagem de Programação Go
 
 # Sumário
 '''
-- Introdução
-- Roteiro
-- Agenda
-- Paradigma(s) a que pertence (características principais, etc)
-- Características mais marcantes da linguagem
-- Linguagens relacionadas (influenciadores, influenciadas, similares, “opostas”, etc)
-- Exemplo(s) de programa(s)
-- PRÁTICA: tutoriais de instalação, uso e programação + exemplos]
-- Considerações finais
-- Bibliografia (livros, www, artigos, outras publicações)
-- Apêndice (em caso de trabalho com mais de 1 componente) – manifestação
-individual de cada aluno(a) sobre o que mais lhe chamou a atenção em sua
-linguagem tema, na pesquisa realizada. A redação de cada aluno(a) deve preencher
-em torno de 1 página A4, deve ser objetiva e pode ter ilustrações, códigos ou outras
-formas de expressar o destaque escolhido.
+- Introdução                                                                          **(página inicial ~ página final)**
+- Roteiro                                                                             **(página inicial ~ página final)**
+- Agenda                                                                              **(página inicial ~ página final)**
+- Paradigma(s) a que pertence (características principais, etc)                       **(página inicial ~ página final)**
+- Características mais marcantes da linguagem                                         **(página inicial ~ página final)**
+- Linguagens relacionadas (influenciadores, influenciadas, similares, “opostas”, etc) **(página inicial ~ página final)**
+- Exemplo(s) de programa(s)                                                           **(página inicial ~ página final)**
+- PRÁTICA: tutoriais de instalação, uso e programação + exemplos]                     **(página inicial ~ página final)**
+- Considerações finais                                                                **(página inicial ~ página final)**
+- Bibliografia (livros, www, artigos, outras publicações)                             **(página inicial ~ página final)**
+- Apêndice (em caso de trabalho com mais de 1 componente) – manifestação              **(página inicial ~ página final)**
+individual de cada aluno(a) sobre o que mais lhe chamou a atenção em sua              **(página inicial ~ página final)**
+linguagem tema, na pesquisa realizada. A redação de cada aluno(a) deve preencher      **(página inicial ~ página final)**
+em torno de 1 página A4, deve ser objetiva e pode ter ilustrações, códigos ou outras  **(página inicial ~ página final)**
+formas de expressar o destaque escolhido.                                             **(página inicial ~ página final)**
 
 '''
 

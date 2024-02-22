@@ -11,7 +11,9 @@ Marco Rodrigo Costa
 '''
 
 - Henrique Augusto Rodrigues
-- Luís Augusto Lima de Oliveira 
+- Luís Augusto Lima de Oliveira
+- Laura Caetano Costa
+- Victor Ferraz de Moraes
 
 '''
 # Tema do Trabalho

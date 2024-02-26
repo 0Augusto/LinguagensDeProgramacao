@@ -39,3 +39,7 @@ formas de expressar o destaque escolhido.                                       
 
 '''
 
+## Referência Bibliográfica ##
+
+Documentação Go: https://go.dev/doc/effective_go
+

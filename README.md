@@ -39,6 +39,31 @@ formas de expressar o destaque escolhido.                                       
 
 '''
 
+## Imports mais Comuns da Linguagem ##
+
+import (
+    "fmt" // Pacote fmt é usado para formatação de saída, como impressão na tela.
+    "os" // Pacote os fornece funcionalidades para interagir com o sistema operacional, como manipulação de arquivos.
+    "net/http" // Pacote net/http é usado para criar servidores HTTP e clientes HTTP.
+    "time" // Pacote time é usado para manipular datas, horários e temporizadores.
+    "math/rand" // Pacote math/rand é usado para gerar números aleatórios.
+    "encoding/json" // Pacote encoding/json é usado para codificar e decodificar dados no formato JSON.
+    "database/sql" // Pacote database/sql é usado para interagir com bancos de dados SQL.
+    _ "github.com/go-sql-driver/mysql" // Importa o driver MySQL para uso com o pacote database/sql.
+    "github.com/gorilla/mux" // Pacote gorilla/mux é usado para criar roteadores HTTP mais avançados em Go.
+    "github.com/dgrijalva/jwt-go" // Pacote jwt-go é usado para trabalhar com tokens JWT em Go.
+    "github.com/jinzhu/gorm" // Pacote gorm é uma biblioteca ORM para interagir com bancos de dados relacionais em Go.
+    "github.com/stretchr/testify/assert" // Pacote testify/assert é usado para escrever testes em Go.
+    "github.com/spf13/viper" // Pacote viper é usado para lidar com configurações de aplicativos em Go.
+    "github.com/go-redis/redis/v8" // Pacote redis é usado para interagir com um banco de dados NoSQL do Redis em Go.
+    "github.com/joho/godotenv" // Pacote godotenv é usado para carregar variáveis de ambiente de arquivos .env em Go.
+    "github.com/sirupsen/logrus" // Pacote logrus é usado para logging estruturado em Go.
+    "github.com/pkg/errors" // Pacote errors fornece funções para manipulação de erros em Go.
+)
+
+
+
+
 ## Referência Bibliográfica ##
 
 Documentação Go: https://go.dev/doc/effective_go

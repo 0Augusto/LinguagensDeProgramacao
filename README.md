@@ -61,8 +61,12 @@ import (
     "github.com/pkg/errors" // Pacote errors fornece funções para manipulação de erros em Go.
 )
 
+## Criação da Linguagem ##
 
-
+Frequentemente utilizada para servidores WEB, microserviços, aplicação de alto desempenho. Foi designada a Google em 2007 para aprimorar a produtividade de programação, na era multicore, networked, máquinas e grandes bases de códigos.
+- Digitação estática e eficiência em tempo de execução (como C)
+- Legibilidade e usabilidade (como Python)[24]
+- Rede de alto desempenho e multiprocessamento
 
 ## Referência Bibliográfica ##
 

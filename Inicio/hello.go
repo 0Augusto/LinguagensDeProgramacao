@@ -1,3 +1,5 @@
+//@author Henrique Augusto Rodrigues
+
 package main
 
 // Importa as bibliotecas a serem utilizadas

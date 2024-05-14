@@ -1,0 +1,150 @@
+Esse código em C demonstra a passagem de parâmetros para funções e o conceito de passagem por valor.
+
+1. Inclusão de bibliotecas: 
+   ```c
+   #include <stdio.h>
+   ```
+   Esta linha inclui a biblioteca padrão de entrada e saída em C, que fornece funcionalidades para entrada de dados do usuário (como com `scanf()`) e para exibição de dados (como com `printf()`).
+
+2. Declaração da função `AlteraValor()`:
+   ```c
+   void AlteraValor(int val);
+   ```
+   Esta linha declara uma função chamada `AlteraValor()` que não retorna nada (`void`) e recebe um parâmetro do tipo inteiro (`int val`). Esta função será definida posteriormente.
+
+3. Função `main()`:
+   ```c
+   int main() {
+       // código
+       return 0;
+   }
+   ```
+   Esta é a função principal do programa, onde a execução começa e termina. Ela retorna um valor inteiro (`int`) para indicar se o programa terminou com sucesso ou com erro.
+
+4. Variável `val`:
+   ```c
+   int val = 50;
+   ```
+   Aqui, uma variável inteira chamada `val` é declarada e inicializada com o valor 50.
+
+5. Impressão do valor antes da chamada da função:
+   ```c
+   printf("Valor antes da funcao: %d\n", val);
+   ```
+   Esta linha imprime o valor da variável `val` antes de ser alterada pela função `AlteraValor()`.
+
+6. Chamada da função `AlteraValor()`:
+   ```c
+   AlteraValor(val);
+   ```
+   Aqui, a função `AlteraValor()` é chamada passando o valor de `val` como argumento. Note que é passado o valor da variável `val`, não a própria variável. Isso significa que a função `AlteraValor()` trabalhará com uma cópia do valor de `val`, não com `val` em si.
+
+7. Impressão do valor depois da chamada da função:
+   ```c
+   printf("Valor depois da funcao: %d\n", val);
+   ```
+   Esta linha imprime o valor de `val` após a chamada da função `AlteraValor()`, mas como veremos adiante, o valor não será alterado aqui.
+
+8. Definição da função `AlteraValor()`:
+   ```c
+   void AlteraValor(int val) {
+       // código
+   }
+   ```
+   Esta é a definição da função `AlteraValor()` que foi declarada anteriormente. Aqui, `val` é uma variável local para esta função, que recebe uma cópia do valor passado como argumento.
+
+9. Expressão dentro da função `AlteraValor()`:
+   ```c
+   val = (val * 15);
+   ```
+   Dentro desta função, o valor de `val` é multiplicado por 15 e atribuído de volta à variável `val`. No entanto, esta alteração só afeta a cópia local de `val` dentro desta função, não afeta a variável `val` na função `main()`.
+
+10. Impressão do valor dentro da função:
+    ```c
+    printf("Valor dentro da funcao: %d\n", val);
+    ```
+    Esta linha imprime o valor de `val` após a alteração dentro da função `AlteraValor()`.
+
+11. Impressão de uma mensagem:
+    ```c
+    puts("Quando o valor e passado por referencia, o valor da variavel dentro da main NAO e alterado apos a execucao da expressao.");
+    ```
+    Esta linha imprime uma mensagem explicativa sobre o comportamento do programa.
+
+No geral, o código ilustra o conceito de passagem de parâmetros por valor em C, onde uma cópia do valor da variável é passada para a função, em vez da própria variável. Isso significa que quaisquer alterações feitas nos parâmetros dentro da função não afetarão os valores das variáveis originais fora da função.
+
+
+Este código em C é semelhante ao anterior, mas utiliza a passagem de parâmetros por referência. 
+
+1. Inclusão de bibliotecas: 
+   ```c
+   #include <stdio.h>
+   ```
+   Essa linha inclui a biblioteca padrão de entrada e saída em C, como no exemplo anterior.
+
+2. Declaração da função `AlteraValor()`:
+   ```c
+   void AlteraValor(int *val);
+   ```
+   Aqui, declaramos a função `AlteraValor()`, que recebe um ponteiro para um inteiro (`int *val`) como parâmetro. Isso significa que a função aceita o endereço de uma variável inteira como argumento.
+
+3. Função `main()`:
+   ```c
+   int main() {
+       // código
+       return 0;
+   }
+   ```
+   A função principal do programa, onde a execução começa e termina, similar ao exemplo anterior.
+
+4. Variável `val`:
+   ```c
+   int val = 50;
+   ```
+   Declaração e inicialização de uma variável inteira `val` com o valor 50, assim como no exemplo anterior.
+
+5. Impressão do valor antes da chamada da função:
+   ```c
+   printf("Valor antes da funcao: %d\n", val);
+   ```
+   Impressiona o valor de `val` antes de ser alterado pela função `AlteraValor()`.
+
+6. Chamada da função `AlteraValor()` com referência ao valor:
+   ```c
+   AlteraValor(&val);
+   ```
+   Aqui, é passado o endereço de `val` (referência ao valor) como argumento para a função `AlteraValor()`. Isso significa que a função terá acesso direto à variável `val` na memória.
+
+7. Impressão do valor depois da chamada da função:
+   ```c
+   printf("Valor depois da funcao: %d\n", val);
+   ```
+   Imprime o valor de `val` após a chamada da função `AlteraValor()`. Como veremos adiante, o valor de `val` será alterado pela função.
+
+8. Definição da função `AlteraValor()`:
+   ```c
+   void AlteraValor(int *val) {
+       // código
+   }
+   ```
+   A definição da função `AlteraValor()`. Aqui, `val` é um ponteiro para um inteiro, o que significa que ele aponta para a localização na memória onde o valor de `val` está armazenado.
+
+9. Expressão dentro da função `AlteraValor()`:
+   ```c
+   *val = (*val * 15);
+   ```
+   Dentro desta função, o valor apontado por `val` (ou seja, o valor de `val` na função `main()`) é multiplicado por 15 e atribuído de volta à mesma localização na memória.
+
+10. Impressão do valor dentro da função:
+    ```c
+    printf("Valor dentro da funcao: %d\n", *val);
+    ```
+    Imprime o valor apontado por `val` após a alteração dentro da função `AlteraValor()`.
+
+11. Impressão de uma mensagem:
+    ```c
+    puts("Quando o valor e passado por referencia, o valor da variavel dentro da main e alterado apos a execucao da expressao.");
+    ```
+    Uma mensagem explicativa sobre o comportamento do programa é impressa.
+
+Este código demonstra a passagem de parâmetros por referência em C, onde as alterações feitas nos parâmetros dentro da função afetam diretamente os valores das variáveis originais fora da função. Isso é possível porque a função recebe o endereço de memória da variável, não apenas seu valor.

@@ -108,4 +108,4 @@ By default, the installer will install Go to Program Files or Program Files (x86
 ## Referência Bibliográfica ##
 
 Documentação Go: https://go.dev/doc/effective_go
-
+IDE GoLang:      https://go.dev/doc/editors

@@ -10,7 +10,9 @@ Marco Rodrigo Costa
 # Integrantes do Grupo
 '''
 
-- Henrique Augusto Rodrigues
+- Henrique Augusto Rodrigues - Paradigma e Características
+O paradigma de programação predominante em Go é o da programação concorrente. A linguagem foi projetada com suporte nativo para concorrência, o que significa que é fácil escrever programas que executam tarefas simultaneamente, aproveitando os recursos de hardware modernos, como múltiplos núcleos de processamento. [et. al]
+
 - Luís Augusto Lima de Oliveira
 - Laura Caetano Costa
 - Victor Ferraz de Moraes

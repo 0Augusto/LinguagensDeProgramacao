@@ -12,11 +12,11 @@ Marco Rodrigo Costa
 
 - Henrique Augusto Rodrigues - Paradigma e Características
 O paradigma de programação predominante em Go é o da programação concorrente. A linguagem foi projetada com suporte nativo para concorrência, o que significa que é fácil escrever programas que executam tarefas simultaneamente, aproveitando os recursos de hardware modernos, como múltiplos núcleos de processamento. [et. al]
+Os nomes são tão importantes no Go quanto em qualquer outro idioma. Eles até têm efeito semântico: a visibilidade de um nome fora de um pacote é determinada pelo fato de seu primeiro caractere ser maiúsculo. [https://go.dev/doc/effective_go] 
 
 - Luís Augusto Lima de Oliveira
 - Laura Caetano Costa
 - Victor Ferraz de Moraes
-
 '''
 # Tema do Trabalho
 Linguagem de Programação Go

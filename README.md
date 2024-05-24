@@ -18,6 +18,50 @@ A programação simultânea consiste em organizar um programa de forma que diver
 - Luís Augusto Lima de Oliveira
 - Laura Caetano Costa
 - Victor Ferraz de Moraes
+### Influências no GoLang
+
+#### C
+
+Uma das influências mais significativas no GoLang é a linguagem de programação C. A linguagem C é conhecida por seu desempenho e capacidades de programação de baixo nível. O GoLang herda muitos recursos do C, mas busca resolver suas complexidades.
+
+- **Sintaxe e Estrutura:** O Go adota uma sintaxe estilo C, tornando-o familiar para muitos desenvolvedores.
+- **Eficiência:** Assim como o C, Go é compilado para código de máquina, oferecendo alto desempenho adequado para programação de sistemas.
+- **Influência na Programação de Sistemas:** O Go retém a eficiência do C, mas introduz recursos modernos como a coleta de lixo, que simplifica a gestão de memória.
+
+#### Python
+
+A simplicidade e legibilidade do Python influenciaram significativamente a filosofia de design do GoLang. O Go busca ser tão fácil de ler e escrever quanto o Python, promovendo a clareza e a manutenibilidade do código.
+
+- **Legibilidade:** A sintaxe do Go é limpa e minimalista, semelhante à do Python, reduzindo a carga cognitiva sobre os desenvolvedores.
+- **Biblioteca Padrão:** A biblioteca padrão abrangente do Python inspirou o Go a incluir um conjunto robusto de bibliotecas desde o início, simplificando tarefas comuns sem depender fortemente de dependências externas.
+
+#### Java
+
+O modelo de concorrência e os recursos orientados a objetos do Java forneceram lições para o modelo de concorrência do GoLang e sua simplicidade estrutural.
+
+- **Concorrência:** Enquanto o Java usa threads para concorrência, o Go introduz goroutines, threads leves que são mais eficientes e fáceis de usar, facilitando a programação concorrente.
+- **Simplicidade:** O Go evita a complexidade da extensa hierarquia de programação orientada a objetos do Java, optando por interfaces e sistemas de tipos mais simples.
+
+#### Limbo
+
+Limbo, projetada para o sistema operacional Inferno, também influenciou bastante o Go. O foco do Limbo em concorrência, sistemas em rede e portabilidade se reflete no GoLang.
+
+- **Concorrência:** As threads leves do Limbo influenciaram o desenvolvimento das goroutines no Go.
+- **Canais:** O conceito de canais para comunicação entre threads no Limbo é diretamente refletido no Go.
+- **Portabilidade:** Assim como o Limbo, o Go busca ser portátil em várias plataformas, tornando-se uma ferramenta versátil para ambientes de computação modernos.
+
+#### Referências
+
+[1] "The Go Programming Language." Google. Disponível em: [https://golang.org/doc/](https://golang.org/doc/)
+
+[2] Kernighan, B.W., Ritchie, D.M. (1988). The C Programming Language. Prentice Hall.
+
+[3] Van Rossum, G. (1995). The Python Programming Language. USENIX Annual Technical Conference.
+
+[4] Gosling, J., Joy, B., Steele, G., Bracha, G. (2014). The Java Language Specification. Oracle Corporation.
+
+[5] "History of Go." Wikipedia. Disponível em: [https://en.wikipedia.org/wiki/Go_(programming_language)](https://en.wikipedia.org/wiki/Go_(programming_language))
+
 '''
 # Tema do Trabalho
 Linguagem de Programação Go

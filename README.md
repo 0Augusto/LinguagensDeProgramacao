@@ -16,6 +16,20 @@ Os nomes são tão importantes no Go quanto em qualquer outro idioma. Eles até 
 A programação simultânea consiste em organizar um programa de forma que diversos cálculos possam ser realizados ao mesmo tempo, durante períodos de tempo sobrepostos. Essa abordagem enfatiza a simultaneidade especificada diretamente pelo programador, em oposição àquela implícita por otimizações do compilador ou pelo hardware do sistema. Com o término do crescimento exponencial da velocidade dos núcleos de processador na metade da década de 2000, devido a limitações energéticas e térmicas, os fabricantes passaram a adotar a estratégia de colocar múltiplos núcleos em um único processador. Essa mudança possibilitou a execução de mais operações ao mesmo tempo. A escalabilidade do paralelismo não é recente, sendo comum em máquinas de grande porte utilizadas há décadas, sobretudo na computação científica e análise de dados. Mesmo em computadores com um único núcleo, sistemas operacionais e interpretadores conseguem simular a simultaneidade através da alternância de contextos entre diferentes tarefas, permitindo a execução de vários programas ao mesmo tempo. Atualmente, com a tendência de aumento do número de núcleos de processador, é crucial que os aplicativos sejam projetados de forma a explorar o paralelismo para otimizar a velocidade de processamento dentro de um único programa. [KAMIL, Amir. Curso de Linguagens de Programação na Universidade de Michigan, outono de 2016.] 
 
 - Luís Augusto Lima de Oliveira
+### História de Go
+Go surgiu no final de 2007 como um projeto desenvolvido na Google por Robert Griesemer, Rob Pike, e Ken Thompson. A sua principal premissa inicial foi resolver problemas encontrados nas linguagens até então consolidadas no mercado para a utilização em servidores. O que foi observado é que linguagens como java, c, c++ e python não lidam bem com processadores multicore, sistemas em rede, clusters de computação maciça e o modelo de programação web atuais, problemas esses que não foram focos do período quando as linguagens foram estruturadas. 
+Isso, combinado à escala de trabalho em servidores que se estende em milhares de linhas de código que demoram até mesmo horas para serem compilados resultava em um processo de desenvolvimento ineficiente e com grande margem de erro. Go foi, portanto, projetado e desenvolvido para tornar o trabalho neste ambiente mais produtivo, assim como as aplicações mais eficientes.  
+Em 2008, Go passou de um projeto de tempo parcial para um projeto de tempo integral no Google, e com isso, muitos outros engenheiros participaram de seu desenvolvimento a partir desse ponto. Em 2009 Go se tornou open-source, sendo sua primeira versão estável lançada em 2012. Atualmente se encontra na versão 1.22.
+
+#### Curiosidade
+Go é comumente chamado de GoLang devido à antiga url do projeto, que era golang.org. Atualmente a nova url é go.dev, onde se encontram diversas informações assim como a documentação da linguagem. Portanto, o nome oficial dado à linguagen é Go, e não Golang.
+
+https://go.dev/talks/2012/splash.article
+
+https://en.wikipedia.org/wiki/Go_(programming_language)#Naming_dispute
+
+https://www.ime.usp.br/~gold/cursos/2015/MAC5742/reports/GoLang.pdf
+
 - Laura Caetano Costa
 - Victor Ferraz de Moraes
 ### Influências no GoLang

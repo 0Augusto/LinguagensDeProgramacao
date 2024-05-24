@@ -30,6 +30,8 @@ https://en.wikipedia.org/wiki/Go_(programming_language)#Naming_dispute
 
 https://www.ime.usp.br/~gold/cursos/2015/MAC5742/reports/GoLang.pdf
 
+https://www.taylorfrancis.com/books/mono/10.1201/9781003309055/golang-sufyan-bin-uzayr
+
 - Laura Caetano Costa
 - Victor Ferraz de Moraes
 ### Influências no GoLang

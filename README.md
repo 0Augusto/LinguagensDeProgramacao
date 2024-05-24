@@ -22,7 +22,7 @@ Isso, combinado à escala de trabalho em servidores que se estende em milhares d
 Em 2008, Go passou de um projeto de tempo parcial para um projeto de tempo integral no Google, e com isso, muitos outros engenheiros participaram de seu desenvolvimento a partir desse ponto. Em 2009 Go se tornou open-source, sendo sua primeira versão estável lançada em 2012. Atualmente se encontra na versão 1.22.
 
 #### Curiosidade
-Go é comumente chamado de GoLang devido à antiga url do projeto, que era golang.org. Atualmente a nova url é go.dev, onde se encontram diversas informações assim como a documentação da linguagem. Portanto, o nome oficial dado à linguagen é Go, e não Golang.
+Go é comumente chamado de GoLang devido à antiga url do projeto, que era golang.org. Atualmente a nova url é go.dev, onde se encontram diversas informações assim como a documentação da linguagem. 
 
 https://go.dev/talks/2012/splash.article
 

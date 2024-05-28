@@ -1,0 +1,558 @@
+//=====BENCHMARK 50X=====//
+
+
+./goRoutine  0.00s user 0.00s system 0% cpu 2.031 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.030 total
+./goRoutine  0.00s user 0.01s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.033 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.025 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.026 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.029 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.027 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.039 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.036 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.023 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.034 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.031 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.028 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.029 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.039 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.033 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.030 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.025 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.033 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.038 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.024 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.028 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.031 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.033 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.023 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.030 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.033 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.032 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.023 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.035 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.027 total
+./goRoutine  0.00s user 0.00s system 0% cpu 2.037 total
+
+
+
+
+
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4
+Funcao main executada: 0
+Funcao main executada: 1
+Funcao main executada: 2
+Funcao main executada: 3
+Funcao main executada: 4
+Goroutine executada: 0
+Goroutine executada: 1
+Goroutine executada: 2
+Goroutine executada: 3
+Goroutine executada: 4

@@ -5,7 +5,7 @@ Repositório destinado para o desenvolvimento do trabalho da disciplina Linguage
 05/06/2024
 
 # Professor
-Marco Rodrigo Costa
+Orientador: Marco Rodrigo Costa
 
 # Integrantes do Grupo
 '''
@@ -31,6 +31,32 @@ Rob Pike, membro da equipe Go na Google, discute padrões de concorrência em Go
 	Rob Pike apresenta uma série de exemplos para demonstrar o uso da concorrência em Go na construção de programas paralelos e robustos. Ele começa com exemplos simples, como o uso da declaração select para controlar comunicações assíncronas e a implementação de um sistema de busca fictício. Em seguida, ele avança para exemplos mais sofisticados, como a replicação de serviços de busca e a aplicação de limites de tempo para evitar a espera indefinida por respostas lentas. Ao longo do processo, Pike destaca a facilidade de uso das primitivas de concorrência em Go, enfatizando a simplicidade na construção de programas complexos sem a necessidade de preocupações com segurança ou barreiras de memória. Ele encerra com uma ressalva sobre o uso responsável dessas técnicas, alertando que, embora divertidas, elas devem ser aplicadas de forma criteriosa, utilizando-as como ferramentas para a construção eficiente de software concorrente.
 
 	Rob Pike conclui destacando que goroutines e canais são características de concorrência essenciais em Go, que facilitam a construção de software concorrente interessante para resolver problemas do mundo real. Ele ressalta a importância de usar as ferramentas certas para cada tarefa e encoraja os desenvolvedores a equilibrar a estrutura do programa, combinando grandes componentes com as primitivas de concorrência apresentadas. Pike também menciona que, embora seja divertido lidar com a concorrência em Go, é importante não exagerar no seu uso. Ele sugere que, embora a linguagem ofereça maneiras poderosas de lidar com a concorrência, é fundamental aplicá-las de forma criteriosa, escolhendo a abordagem adequada para cada situação. Por fim, Pike responde a algumas perguntas da plateia sobre testes de código concorrente e possíveis melhorias na análise estática de programas em Go. [YouTube. Google I/O 2012 - Go Concurrency Patterns. Disponível em: <https://www.youtube.com/watch?v=f6kdp27TYZs>. Acesso em: 29 maio 2024, 6:34.]
+ 
+ Dentre as características da linguagem, há a detecção de vulnerabilidaes onde, a linguagem em questão fornece ferramentas confiáveis e de baixo ruído para o aprendizado de vulnerabilidades para os desenvolvedores utilizando o *govulncheck* tendo uma extensão para o VS Code, baixando o VS Code Go [Tutorial: Comece com o VS Code Go. Disponível em: https://go.dev/doc/tutorial/govulncheck-ide. Acesso em 25 de maio de 2024 às 3:37].
+ 
+ O Go é uma linguagem de programação que desempenha um papel fundamental tanto no **Desenvolvimento de Operações (DevOps)** quanto na **Engenharia de Confiabilidade do Site (SRE)**. Vamos dar uma olhada em como o Go beneficia essas áreas:
+
+1. **DevOps**:
+   - As equipes de DevOps automatizam tarefas e melhoram o processo de integração contínua e implantação contínua (CI/CD) nas organizações de engenharia.
+   - O Go oferece **vantagens significativas** para os profissionais de DevOps:
+     - **Biblioteca padrão robusta**: O Go possui uma extensa biblioteca padrão que inclui pacotes para necessidades comuns, como manipulação de HTTP, E/S de arquivos, formatação de tempo, expressões regulares e formatos JSON/CSV.
+     - **Tempo de construção rápido**: O Go é conhecido por seus tempos de compilação e inicialização rápidos, permitindo que os profissionais de DevOps se concentrem na lógica de negócios sem atrasos excessivos.
+     - **Digitação estática e tratamento explícito de erros**: A tipagem estática e o tratamento explícito de erros tornam até mesmo pequenos scripts mais robustos e fáceis de manter.
+
+2. **SRE**:
+   - A Engenharia de Confiabilidade do Site (SRE) foi desenvolvida no Google para tornar os sites de grande escala mais confiáveis, eficientes e escaláveis.
+   - O Go é uma escolha natural para os profissionais de SRE pelas seguintes razões:
+     - **Concorrência e rede**: Os recursos de concorrência e gerenciamento de rede do Go são ideais para ferramentas que lidam com implantação em nuvem. Isso permite a automação eficiente enquanto a infraestrutura de desenvolvimento cresce.
+     - **Segurança e confiabilidade**: O Go é conhecido por sua segurança e confiabilidade, tornando-o adequado para sistemas críticos.
+     - **Baixa pegada de memória e documentação automática**: O coletor de lixo do Go elimina preocupações com gerenciamento de memória, e o gerador automático de documentação (godoc) facilita a manutenção e o estabelecimento de boas práticas desde o início.
+
+Em resumo, o Go é uma escolha sólida para profissionais de DevOps e SRE, oferecendo ferramentas poderosas para automação, escalabilidade e confiabilidade. [Operações de Desenvolvimento e Engenharia de Confiabilidade do Site. Disponível em: https://go.dev/solutions/devops. Acesso em 25 de maio de 2024 às 3:58]
+
+Source: Conversation with Copilot, 31/05/2024
+(1) Development Operations & Site Reliability Engineering - The Go .... https://go.dev/solutions/devops.
+(2) What Is SRE? How Does It Relate to DevOps? - How-To Geek. https://www.howtogeek.com/devops/what-is-sre-how-does-it-relate-to-devops/.
+(3) Supercharge your DevOps practice with SRE principles - Google Cloud. https://cloud.google.com/blog/products/devops-sre/supercharge-your-devops-practice-with-sre-principles.
+(4) SRE in the 2022 State of DevOps report | Google Cloud Blog. https://cloud.google.com/blog/products/devops-sre/sre-in-the-2022-state-of-devops-report.   
 
 
 - Luís Augusto Lima de Oliveira
@@ -187,6 +213,6 @@ By default, the installer will install Go to Program Files or Program Files (x86
       $ go version
 
 ## Referência Bibliográfica ##
-GO. Documentação de Effective Go. Disponível em: https://go.dev/doc/effective_go. Acesso em: 20 fev. 2024.
-GO. Documentação sobre IDEs para GoLang. Disponível em: https://go.dev/doc/editors. Acesso em: 10 mar. 2025.
+[1] GO. Documentação de Effective Go. Disponível em: https://go.dev/doc/effective_go. Acesso em: 20 fev. 2024.
+[2] GO. Documentação sobre IDEs para GoLang. Disponível em: https://go.dev/doc/editors. Acesso em: 10 mar. 2025.
 KAMIL, Amir. Curso de Linguagens de Programação na Universidade de Michigan, outono de 2016.

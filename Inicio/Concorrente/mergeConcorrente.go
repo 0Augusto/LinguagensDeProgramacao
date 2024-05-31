@@ -11,8 +11,10 @@ Amarração:
 
 Tipo: Comunicação.
 Descrição: As goroutines são usadas para executar tarefas em paralelo. A amarração é feita usando wait groups para garantir que a função principal aguarde a conclusão das goroutines antes de continuar. Isso permite a execução concorrente do merge sort, melhorando o desempenho em sistemas com múltiplos núcleos de CPU.
-*/
+Sistema de Tipos:
 
+O sistema de tipos em Go é estático e forte. As variáveis têm tipos definidos e não podem ser alteradas dinamicamente em tempo de execução. Os tipos são verificados em tempo de compilação, o que ajuda a evitar erros comuns e melhorar a segurança do código. Os tipos são inferidos automaticamente quando possível, mas também podem ser explicitamente declarados pelo programador. No código fornecido, são usados tipos como int, []int, sync.WaitGroup, entre outros.
+*/
 
 package main
 
@@ -87,6 +89,10 @@ func mergeSort(arr []int) []int {
 func main() {
 	arr := []int{5, 9, 3, 7, 2, 8, 6, 1, 4}
 	fmt.Println("Unsorted array:", arr)
+
+	// Abstração: Chamada para a função mergeSort para ordenar a lista de inteiros.
+	// Tipo: Funcional.
 	arr = mergeSort(arr)
+
 	fmt.Println("Sorted array:", arr)
 }

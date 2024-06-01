@@ -87,11 +87,14 @@ Essas características tornam a linguagem Go uma escolha popular para o desenvol
 - Luís Augusto Lima de Oliveira
 ### História de Go
 Go surgiu no final de 2007 como um projeto desenvolvido na Google por Robert Griesemer, Rob Pike, e Ken Thompson. A sua principal premissa inicial foi resolver problemas encontrados nas linguagens até então consolidadas no mercado para a utilização em servidores. O que foi observado é que linguagens como java, c, c++ e python não lidam bem com processadores multicore, sistemas em rede, clusters de computação maciça e o modelo de programação web atuais, problemas esses que não foram focos do período quando as linguagens foram estruturadas. 
-Isso, combinado à escala de trabalho em servidores que se estende em milhares de linhas de código que demoram até mesmo horas para serem compilados resultava em um processo de desenvolvimento ineficiente e com grande margem de erro. Go foi, portanto, projetado e desenvolvido para tornar o trabalho neste ambiente mais produtivo, assim como as aplicações mais eficientes.  
-Em 2008, Go passou de um projeto de tempo parcial para um projeto de tempo integral no Google, e com isso, muitos outros engenheiros participaram de seu desenvolvimento a partir desse ponto. Em 2009 Go se tornou open-source, sendo sua primeira versão estável lançada em 2012. Atualmente se encontra na versão 1.22.
+Isso, combinado à escala de trabalho em servidores que se estende em milhares de linhas de código que demoram até mesmo horas para serem compilados resultava em um processo de desenvolvimento ineficiente e com grande margem de erro. Um exemplo disso foi uma compilação de C++ feita na google em 2007, que demorou cerca de 45 minutos para gerar o binário devido à má gestão de includes do compilador de C++. A versão de 2012 desse mesmo programa teve seu tempo de compilação diminuida quase que pela metade mesmo com mais recursos, compilando em 27 minutos.
+Go foi, portanto, projetado e desenvolvido visando a Engenharia de Software na buscsa de tornar o trabalho neste ambiente de projetos de grande porte mais produtivo, assim como as aplicações mais eficientes. Em 2008, Go passou de um projeto de tempo parcial para um projeto de tempo integral no Google, e com isso, muitos outros engenheiros participaram de seu desenvolvimento a partir desse ponto. Em 2009 Go se tornou open-source, sendo sua primeira versão estável lançada em 2012. Em 2018 a logo atual da linguagem foi criada. A ultima versão até o momento é a 1.22.
+
 
 #### Curiosidade
 Go é comumente chamado de GoLang devido à antiga url do projeto, que era golang.org. Atualmente a nova url é go.dev, onde se encontram diversas informações assim como a documentação da linguagem. 
+
+https://go.dev/blog/go-brand
 
 https://go.dev/talks/2012/splash.article
 

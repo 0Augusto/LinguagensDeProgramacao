@@ -116,9 +116,13 @@ Verifique se o Go foi instalado corretamente executando o comando go version no 
 
 ## Passo 2: Criar e Executar um Programa 
 -Crie um Novo Diretório para o Projeto:
+
 -Crie um novo diretório onde você deseja criar o seu projeto Go.
+
 -Crie um Arquivo Fonte Go
+
 -Abra o arquivo hello.go em um editor de texto ou IDE de sua escolha.
+
 -Escreva o seguinte código Go:
 	
 	import (
@@ -161,7 +165,8 @@ Verifique se o Go foi instalado corretamente executando o comando go version no 
 	}
 
 -Salve e Feche o Arquivo:
-Compile e Execute o Programa:
+
+-Compile e Execute o Programa:
 	go run hello.go
 
 

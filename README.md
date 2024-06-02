@@ -114,14 +114,12 @@ Vá para o site oficial do Go em https:	//golang.org/dl/.
 Siga as instruções de instalação fornecidas para o seu sistema operacional.
 Verifique se o Go foi instalado corretamente executando o comando go version no terminal ou prompt de comando.
 
-##Passo 2: Criar e Executar um Programa 
+## Passo 2: Criar e Executar um Programa 
 -Crie um Novo Diretório para o Projeto:
-
 -Crie um novo diretório onde você deseja criar o seu projeto Go.
 -Crie um Arquivo Fonte Go
-
 -Abra o arquivo hello.go em um editor de texto ou IDE de sua escolha.
-Escreva o seguinte código Go:
+-Escreva o seguinte código Go:
 	
 	import (
 		"fmt"
@@ -162,9 +160,7 @@ Escreva o seguinte código Go:
 		fmt.Println("Todos os resultados foram recebidos")
 	}
 
-Salve e Feche o Arquivo:
-
-Salve as alterações feitas no arquivo hello.go.
+-Salve e Feche o Arquivo:
 Compile e Execute o Programa:
 	go run hello.go
 

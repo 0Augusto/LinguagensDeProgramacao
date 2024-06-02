@@ -107,12 +107,12 @@ https://www.taylorfrancis.com/books/mono/10.1201/9781003309055/golang-sufyan-bin
 - Laura Caetano Costa
  ### Tutorial prático: vizualizando a concorrência em Go
 ## Passo 1: Instalação do Go
-	Baixe o Go:
-	Vá para o site oficial do Go em https://golang.org/dl/.
-	Baixe a versão apropriada para o seu sistema operacional.
-	Instale o Go:
-	Siga as instruções de instalação fornecidas para o seu sistema operacional.
-	Verifique se o Go foi instalado corretamente executando o comando go version no terminal ou prompt de comando.
+- Baixe o Go:
+Vá para o site oficial do Go em https:	//golang.org/dl/.
+- Baixe a versão apropriada para o seu sistema operacional.
+- Instale o Go:
+Siga as instruções de instalação fornecidas para o seu sistema operacional.
+Verifique se o Go foi instalado corretamente executando o comando go version no terminal ou prompt de comando.
 
 - Victor Ferraz de Moraes
 ### Influências no GoLang

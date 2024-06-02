@@ -116,58 +116,50 @@ Verifique se o Go foi instalado corretamente executando o comando go version no 
 
 ## Passo 2: Criar e Executar um Programa 
 - Crie um Novo Diretório para o Projeto
-
 - Crie um novo diretório onde você deseja criar o seu projeto Go
-
 - Crie um Arquivo Fonte Go
-
 - Abra o arquivo hello.go em um editor de texto ou IDE de sua escolha
-
 - Escreva o seguinte código Go:
-	
-	import (
-		"fmt"
-		"time"
-	)
-	
-	// função que calcula o quadrado de um número e envia o resultado para um canal
-	func square(number int, ch chan int) {
-		fmt.Printf("Goroutine iniciada para número: %d\n", number)
-		result := number * number
-		time.Sleep(time.Second) // Simula algum trabalho
-		fmt.Printf("Goroutine finalizada para número: %d\n", number)
-		ch <- result
 		
+		import (
+			"fmt"
+			"time"
+		)
+		// função que calcula o quadrado de um número e envia o resultado para um canal
+		func square(number int, ch chan int) {
+			fmt.Printf("Goroutine iniciada para número: %d\n", number)
+			result := number * number
+			time.Sleep(time.Second) // Simula algum trabalho
+			fmt.Printf("Goroutine finalizada para número: %d\n", number)
+			ch <- result	
+		}
 		
-	}
+		func main() {
+			fmt.Println("Iniciando programa")
 	
-	func main() {
-		fmt.Println("Iniciando programa")
-	
-		// Canal que pode receber e enviar inteiros
-		results := make(chan int)
-	
-		// Cria goroutines para calcular o quadrado dos números de 1 a 10
-		for i := 1; i <= 5; i++ {
-			go square(i, results)
+			// Canal que pode receber e enviar inteiros
+			results := make(chan int)
+		
+			// Cria goroutines para calcular o quadrado dos números de 1 a 10
+			for i := 1; i <= 5; i++ {
+				go square(i, results)
+			}
+		
+			fmt.Println("Todas as goroutines foram enviadas")
+		
+			// Recebe e imprime os resultados das goroutines
+			for i := 1; i <= 5; i++ {
+				fmt.Println("Esperando pelo resultado", i)
+				result := <-results
+				fmt.Println("Resultado recebido:", result)
+			}
+		
+			fmt.Println("Todos os resultados foram recebidos")
 		}
-	
-		fmt.Println("Todas as goroutines foram enviadas")
-	
-		// Recebe e imprime os resultados das goroutines
-		for i := 1; i <= 5; i++ {
-			fmt.Println("Esperando pelo resultado", i)
-			result := <-results
-			fmt.Println("Resultado recebido:", result)
-		}
-	
-		fmt.Println("Todos os resultados foram recebidos")
-	}
-
 - Salve e Feche o Arquivo
-
 - Compile e Execute o Programa:
-	go run hello.go
+
+		go run hello.go
 
 
 - Victor Ferraz de Moraes	

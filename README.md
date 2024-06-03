@@ -82,7 +82,20 @@ Claro! Aqui estão algumas características principais da linguagem Go (GoLang) 
    - A linguagem Go é projetada para facilitar a escrita de código concorrente seguro.
    - O modelo de concorrência de Go, com goroutines e canais, promove práticas de programação seguras, evitando problemas comuns associados à concorrência, como condições de corrida e deadlocks.
 
-Essas características tornam a linguagem Go uma escolha popular para o desenvolvimento de sistemas concorrentes e de alta performance, especialmente em ambientes onde o uso eficiente da memória e a concorrência são essenciais, como em servidores web e sistemas distribuídos. [et.al]
+Essas características tornam a linguagem Go uma escolha popular para o desenvolvimento de sistemas concorrentes e de alta performance, especialmente em ambientes onde o uso eficiente da memória e a concorrência são essenciais, como em servidores web e sistemas distribuídos. 
+
+6. **Paradigma Imperativo**
+  - Uso de loops (for, range).
+  - Uso de condicionais (if, switch).
+  - Funções que modificam variáveis e estados.
+7. **Paradigma Concorrente**
+  - Goroutines: leves threads gerenciadas pelo runtime do Go.
+  - Channels: mecanismos de comunicação entre goroutines.
+
+8. **Paradigma Funcional**
+  - Funções podem ser passadas como argumentos e retornadas como valores.
+  - Funções anônimas e closures.
+[et.al]
 
 - Luís Augusto Lima de Oliveira
 ### História de Go

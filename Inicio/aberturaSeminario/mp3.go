@@ -13,7 +13,7 @@ import (
 
 func main() {
 	// Abra o arquivo MP3
-	f, err := os.Open("/Users/hariseldon/Desktop/GoPowerRangers.mp3")
+	f, err := os.Open("/caminho/para/audio/GoPowerRangers.mp3")
 	if err != nil {
 		log.Fatal(err)
 	}

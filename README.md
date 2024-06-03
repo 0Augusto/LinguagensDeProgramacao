@@ -58,7 +58,6 @@ Source: Conversation with Copilot, 31/05/2024
 (3) Supercharge your DevOps practice with SRE principles - Google Cloud. https://cloud.google.com/blog/products/devops-sre/supercharge-your-devops-practice-with-sre-principles.
 (4) SRE in the 2022 State of DevOps report | Google Cloud Blog. https://cloud.google.com/blog/products/devops-sre/sre-in-the-2022-state-of-devops-report.   
 
-Claro! Aqui estão algumas características principais da linguagem Go (GoLang) relacionadas ao uso de memória cache e concorrência:
 
 1. **Concorrência Eficiente**:
    - Go possui suporte integrado para concorrência com goroutines e canais (channels).

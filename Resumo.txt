@@ -1,0 +1,7 @@
+O estudo comparou as implementações em C e Go de um Simulador de Sistema de Controle de Tráfego, analisando a eficiência de tempo, complexidade de implementação, capacidades de multi-threading e métricas de desempenho. Os resultados foram obtidos através de uma análise quantitativa das execuções da simulação, considerando diferentes cenários e condições de execução.
+
+Em relação às capacidades de multi-threading, foram avaliadas a eficiência na distribuição de tarefas entre múltiplos núcleos de processamento. Os resultados mostraram que o Go apresentou uma boa capacidade de lidar com múltiplas threads, embora tenha sido observado um pouco mais de variação nos tempos de execução em comparação com o C em determinados cenários.
+
+As métricas de desempenho, como tempo médio de execução, desvio padrão e valores medianos, foram utilizadas para comparar as implementações em C e Go. Os resultados indicaram que, apesar de algumas diferenças na sintaxe e nas capacidades das linguagens, ambas foram capazes de executar a simulação dentro dos parâmetros esperados, com o Go demonstrando uma pequena vantagem em termos de produtividade devido à sua sintaxe concisa e facilidade de implementação de controle de threads.
+
+Essa abordagem comparativa detalhada permitiu uma análise abrangente das capacidades e limitações de cada linguagem na implementação de um simulador de sistema de controle de tráfego, fornecendo insights valiosos sobre a eficiência, produtividade e desempenho de C e Go em cenários específicos de desenvolvimento de software.
